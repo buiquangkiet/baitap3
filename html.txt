@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flex.css">
+    <style>
+        html,body{
+            margin: 0;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <!--nav-->
+    <div class="nav">
+      <ul class="list">
+        <li class="item">Giới thiệu</li>
+        <li class="item">Kết nối</li>
+        <li class="item">Tải ứng dụng</li>
+      </ul>
+      <ul class="list">
+        <li class="item">Đăng ký</li>
+        <li class="item">Đăng nhập</li>
+      </ul>
+    </div>
+
+    <!--form-->
+    <div class="form">
+      <form action="" class="form-container">
+        <div class="form-row">
+          <label class="form-lable" for="name">Name:</label>
+          <input class="form-input" type="text">
+        </div>  
+        <div>
+          <div class="form-row">
+            <label class="form-lable" for="password">Passwork:</label>
+            <input class="form-input" type="password">
+          </div>  
+        </div>
+      </form>
+
+    </div>
+    
+</body>
+</html>
